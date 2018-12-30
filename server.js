@@ -37,7 +37,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('home.hbs',{
     pageTitle: 'Home page',
-    welcomeText: 'Hi, welcome to Dans site!',
+    welcomeText: 'Hi, welcome to Dan Harris site!',
   })
 });
 
